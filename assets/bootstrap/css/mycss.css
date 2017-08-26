@@ -1,0 +1,13 @@
+
+footer {
+    margin: 50px 0;
+}
+
+ body {
+     padding-top: 80px;
+ }
+ 
+a {
+    text-decoration: none !important;
+}
+.label a {color: white;}

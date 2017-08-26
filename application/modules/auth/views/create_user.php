@@ -1,0 +1,67 @@
+<?php $this->load->view('header_comun'); ?>
+
+<div class="container">
+
+      <h1><?php echo lang('create_user_heading');?></h1>
+
+      <?php if($message): ?>
+            <div class="alert alert-warning">
+                  <?php echo $message; ?>
+            </div>
+      <?php endif; ?>
+
+      <div class="well">
+            <?php echo form_open("auth/create_user", 'class="bs-example form-horizontal"');?>
+            <fieldset>
+                  <legend><?php echo lang('create_user_subheading');?></legend>
+                  <div class="form-group">
+                        <label for="input" class="col-lg-2 control-label"><?php echo lang('create_user_fname_label', 'first_name');?></label>
+                        <div class="col-lg-10"> <?php echo form_input($first_name, null, 'class="form-control"');?></div>
+                  </div>
+
+                  <div class="form-group">
+                        <label for="input" class="col-lg-2 control-label"><?php echo lang('create_user_lname_label', 'last_name');?></label>
+                        <div class="col-lg-10"> <?php echo form_input($last_name, null, 'class="form-control"');?></div>
+                  </div>
+
+                  <div class="form-group">
+                        <label for="input" class="col-lg-2 control-label"><?php echo lang('create_user_phone_label', 'phone');?></label>
+                        <div class="col-lg-10"> <?php echo form_input($phone, null, 'class="form-control"');?></div>
+                  </div>
+
+                  <div class="form-group">
+                        <label for="input" class="col-lg-2 control-label"><?php echo lang('create_user_company_label', 'company');?></label>
+                        <div class="col-lg-10"> <?php echo form_input($company, null, 'class="form-control"');?></div>
+                  </div>
+
+            </fieldset>
+            <fieldset>
+                  <!--<legend>Datos de acceso</legend>-->
+                  <div class="form-group">
+                        <label for="input" class="col-lg-2 control-label"><?php echo lang('create_user_email_label', 'email');?></label>
+                        <div class="col-lg-10"> <?php echo form_input($email, null, 'class="form-control"');?></div>
+                  </div>
+
+                  <div class="form-group">
+                        <label for="input" class="col-lg-2 control-label"><?php echo lang('create_user_password_label', 'password');?></label>
+                        <div class="col-lg-10"> <?php echo form_input($password, null, 'class="form-control"');?></div>
+                  </div>
+
+                  <div class="form-group">
+                        <label for="input" class="col-lg-2 control-label"><?php echo lang('create_user_password_confirm_label', 'password_confirm');?></label>
+                        <div class="col-lg-10"> <?php echo form_input($password_confirm, null, 'class="form-control"');?></div>
+                  </div>
+
+
+                  <div class="form-group">
+                  <label for="input" class="col-lg-2 col-lg-offset-2 control-label"><?php echo form_submit('submit', lang('create_user_submit_btn'), 'class="btn btn-primary"');?></label>
+                  <label for="input" class="col-lg-2 col-lg-offset-2 control-label"><a href="<?php echo site_url('users') ?>" class="btn btn-danger">Cancel</a>
+                  </div>
+
+            </fieldset>
+            <?php echo form_close();?>
+
+      </div>
+</div>
+
+<?php $this->load->view('footer'); 
