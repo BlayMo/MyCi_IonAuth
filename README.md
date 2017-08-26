@@ -1,4 +1,4 @@
-*MyCi_IonAuth
+#MyCi_IonAuth
 
 
     Aplicación base realizada con Codeigniter 3.1.5 + IonAuth 2 para gestión de usuarios, grupos y acceso a modulos a nivel de usuario.
