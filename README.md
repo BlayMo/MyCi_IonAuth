@@ -1,4 +1,4 @@
-#MyCi_IonAuth
+*MyCi_IonAuth
 
 
     Aplicación base realizada con Codeigniter 3.1.5 + IonAuth 2 para gestión de usuarios, grupos y acceso a modulos a nivel de usuario.
@@ -18,4 +18,3 @@
     El/los usuarios pertenecientes al grupo 'admin', tienen acceso total a todos los módulos. Es el "Administrator" el único que puede 'CRUD' en
     en las tablas de administracion : Permisos, users, grupos, módulos. Es además el único que puede modificar los permisos para los usuarios que no pertenecen
     al grupo 'admin'.	
-</pre>
