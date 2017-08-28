@@ -24,6 +24,8 @@ El software empleado es el siguiente:
 **PHP 7.1.6 + Codeigniter 3.1.5 + DataTables 1.10.13 + Bootstrap 3.3.7**
 
 **Ion Auth 2 & harviacode/codeigniter-crud-generator**
+
+**https://github.com/kenjis/codeigniter-composer-installer**
 	
 
 Pantallas de la aplicación:
