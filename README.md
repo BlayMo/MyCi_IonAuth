@@ -27,7 +27,7 @@ El software empleado es el siguiente:
 	
 
 Pantallas de la aplicación:
-![P1.jpg](C:/xampp7/htdocs/MyCi_IonAuth/files/P1.jpg "Tabla de usuarios")    
+![P1.jpg](https://github.com/BlayMo/MyCi_IonAuth/blob/master/P1.jpg "Tabla de usuarios")    
 
 [Ver Demo de la aplicacion](https://expresoweb.000webhostapp.com/MyCi_IonAuth/public/main "")
 
