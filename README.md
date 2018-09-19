@@ -31,14 +31,11 @@ El software empleado es el siguiente:
 Pantallas de la aplicación:
 ![P1.jpg](https://github.com/BlayMo/MyCi_IonAuth/blob/master/P1.jpg "Tabla de usuarios")    
 
-[Ver Demo de la aplicacion](https://expresoweb.000webhostapp.com/MyCi_IonAuth/public/main "")
-
 Todo el código se distribuye bajo licencia MIT. El software de terceros se distribuye con sus respectivas licencias.
 
 Agradezco cualquier sugerencia, comentario y corrección de errores. 
 Ni que decir tiene que el código que he depositado en este repositorio es infinitamente mejorable y optimizable.
 Todo se ha desarrollado con 'corazón' y para ser compartido.
 
-[Mi WebSite](https://expresoweb.joomla.com/contact"")
 
 [Mail](expresoweb2015@gmail.com "")
